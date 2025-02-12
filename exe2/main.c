@@ -20,13 +20,13 @@ int main() {
       printf("Botao 1\n");
       while (!gpio_get(BTN_PIN_1V)) {
         sleep_ms(100);
-      };
+      }
     }
     else if (!gpio_get(BTN_PIN_2A)) {
       printf("Botao 2\n");
       while (!gpio_get(BTN_PIN_2A)) {
         sleep_ms(100);
-      };
+      }
     }
   }
 }
