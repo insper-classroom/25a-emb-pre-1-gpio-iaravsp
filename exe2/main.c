@@ -4,7 +4,7 @@
 
 const int BTN_PIN_1V = 26; //botao 1 verde
 const int BTN_PIN_2A = 7;  //botao 2 amarelo
-
+//acho q tudo ok, reenviando commit p/ testes
 int main() {
   stdio_init_all();
 
